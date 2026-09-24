@@ -7,8 +7,9 @@ namespace _03_FeludefinialasEsListak
     internal class Jatekos
     {
         private int szint;
-        public string Nev { get; set; }
         private int pontszam;
+        public string Nev { get; set; }
+        public string Rang { get; set; }
         
         public int Szint 
         { 
@@ -46,6 +47,13 @@ namespace _03_FeludefinialasEsListak
         }
         public override string ToString()
         {
+            string Rang = Pontszam switch
+            {
+                < 100 => "Újonc",
+                < 500 => "Középhaladó",
+                < 1000 => "Haladó",
+                _ => "Mester"
+            };
             return $"Játékos: {Nev}, Szint: {Szint}, Pontszám: {Pontszam}";
         }
     }
