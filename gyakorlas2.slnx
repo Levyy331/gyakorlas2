@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="01_statikuselemek/01_statikuselemek.csproj" />
+  <Project Path="02_AdatvedelemEsKonstruktorok/02_AdatvedelemEsKonstruktorok.csproj" Id="21e9709e-8fdd-4cee-af0b-1fb8f0d13cbd" />
   <Project Path="03_FeludefinialasEsListak/03_FeludefinialasEsListak.csproj" />
 </Solution>
